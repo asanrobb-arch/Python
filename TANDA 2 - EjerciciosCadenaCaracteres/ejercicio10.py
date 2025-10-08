@@ -6,6 +6,5 @@ una línea distinta.
 """
 
 cesta = input("Introduzca los productos a comprar separados por comas: ")
-productos = cesta.split(",")
 
-print ("Los productos que quiere comprar son: \n", *productos , sep ="\n")
+print (f"Los productos que quiere comprar son: \n {cesta.replace(',','\n')}")

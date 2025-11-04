@@ -14,14 +14,12 @@ entero = int(input("Introduzca un número entero: "))
 cont1 = 1
 
 while cont1 <= entero:
-    if (cont1 % 2 != 0):
-        cont2 = cont1
-
-        while cont2 >= 1:
-            if (cont2 % 2 != 0):
-                print (cont2, sep=" ", end=" ")
-            cont2 -= 1
+    cont2 = cont1
+    
+    while cont2 >= 1:
+        print (cont2, sep=" ", end=" ")
+        cont2 -= 2
+    
+    print ("\n")
         
-        print ("\n")
-        
-    cont1 += 1
+    cont1 += 2

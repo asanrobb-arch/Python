@@ -5,3 +5,6 @@ Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre po
 pantalla.
 """
 
+tupla = ("Matemáticas","Física","Química","Historia","Lengua")
+
+print (tupla)
